@@ -1,0 +1,6 @@
+{
+  "normal": "demo:maintenance:001",
+  "duplicate": "demo:maintenance:001",
+  "restart": "saved-result-before-preparation",
+  "failures": ["missing-source", "held-project", "modified-artifact", "interrupted-worker", "source-tamper", "policy-tamper", "malformed-check", "contradictory-check", "quota", "unknown-auth"]
+}

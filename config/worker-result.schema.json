@@ -1,0 +1,13 @@
+{
+  "type": "object", "additionalProperties": false,
+  "required": ["status", "summary", "evidence", "changed_files", "verification", "memory_updates", "unresolved"],
+  "properties": {
+    "status": { "type": "string", "enum": ["completed", "partial", "blocked", "failed"] },
+    "summary": { "type": "string" },
+    "evidence": { "type": "array", "items": { "type": "string" } },
+    "changed_files": { "type": "array", "items": { "type": "string" } },
+    "verification": { "type": "array", "items": { "type": "object", "additionalProperties": false, "required": ["criterion", "passed", "details"], "properties": { "criterion": { "type": "string" }, "passed": { "type": "boolean" }, "details": { "type": "string" } } } },
+    "memory_updates": { "type": "array", "items": { "type": "string" } },
+    "unresolved": { "type": "array", "items": { "type": "string" } }
+  }
+}

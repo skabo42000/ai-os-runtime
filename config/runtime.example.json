@@ -1,0 +1,11 @@
+{
+  "workspaceRoot": "../fixtures/demo",
+  "stateDir": null,
+  "reportDir": null,
+  "projectsFile": "projects.example.json",
+  "policyFile": "policy.md",
+  "timezone": "UTC",
+  "provider": { "name": "fixture", "model": "scripted-v1", "effort": "none" },
+  "notifications": { "adapter": "noop", "quietStart": 22, "quietEnd": 7, "dailyCap": 6, "list": "Runtime alerts" },
+  "scheduling": false
+}

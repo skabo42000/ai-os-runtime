@@ -1,0 +1,5 @@
+{
+  "researcher": { "procedure": "procedures/research.md", "edit": false, "provider": "fixture", "model": "scripted-v1", "effort": "none" },
+  "engineer": { "procedure": "procedures/engineering.md", "edit": false, "provider": "fixture", "model": "scripted-v1", "effort": "none" },
+  "reviewer": { "procedure": "procedures/review.md", "edit": false, "provider": "fixture", "model": "scripted-v1", "effort": "none" }
+}

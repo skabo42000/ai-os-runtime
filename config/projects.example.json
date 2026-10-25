@@ -1,0 +1,4 @@
+{
+  "harbor": { "path": ".", "status": "active" },
+  "held-workshop": { "path": ".", "status": "held" }
+}

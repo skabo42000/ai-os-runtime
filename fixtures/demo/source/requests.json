@@ -1,0 +1,5 @@
+[
+  { "id": "REQ-001", "asset": "Press A", "date": "2026-01-15", "condition": "stopped", "description": "Drive does not start" },
+  { "id": "REQ-002", "asset": "Cart B", "date": "2026-01-15", "condition": "maintenance", "description": "Wheel needs service" },
+  { "id": "REQ-003", "asset": "Light C", "date": "2026-01-15", "condition": "cosmetic", "description": "Cover has a scratch" }
+]

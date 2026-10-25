@@ -1,0 +1,9 @@
+{
+  "team": "Harbor Workshop",
+  "date": "2026-01-15",
+  "requests": [
+    { "id": "REQ-001", "asset": "Press A", "priority": "high", "source_id": "REQ-001" },
+    { "id": "REQ-002", "asset": "Cart B", "priority": "normal", "source_id": "REQ-002" },
+    { "id": "REQ-003", "asset": "Light C", "priority": "low", "source_id": "REQ-003" }
+  ]
+}
